@@ -1,0 +1,381 @@
+@font-face {
+  font-family: 'TFIfont';
+  src: url('../fonts/AlternateGothicNo2-webfont.eot');
+  src: url('../fonts/AlternateGothicNo2-webfont.woff') format('woff'),
+       url('../fonts/AlternateGothicNo2-webfont.svg#AlternateGothicNo2-webfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media all and (min-width: 1600px){
+#home{
+	background: url('../images/tfi_cover.jpg') no-repeat center center;
+}
+
+}
+
+@media all and (max-width: 1599px) and (min-width: 1200px){
+#home{
+	background: url('../images/tfi_cover_bg.jpg') no-repeat center center;
+}
+}
+
+@media all and (max-width: 1199px) and (min-width: 769px){
+#home{
+	background: url('../images/tfi_cover_md.jpg') no-repeat center center;
+}
+}
+
+@media all and (max-width: 768px){
+#home{
+	background: url('../images/tfi_cover_sm.jpg') no-repeat center center;
+}
+}
+
+#home{
+	width:100%;
+	display: block;
+	height: 650px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	box-shadow: 0 10px 15px 0 hsl(0, 0%, 50%);
+}
+
+#intro{
+	margin-top:100px;
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	font-weight: normal;
+	font-family: "TFIfont","Alternate Gothic No.2",Impact,"Arial Narrow",Futura,sans-serif;
+}
+
+#intro p{
+	margin-top: 25px;
+	font-size: 32px;
+	line-height: 44px;
+	font-family: "TFIfont","Alternate Gothic No.2",Impact,"Arial Narrow",Futura,sans-serif;
+}
+
+#intro p span{
+	color: #28AECF;
+}
+
+#intro h1{
+	font-size: 60px;
+	margin:0px 0px 0px 0px;
+	line-height:32px;
+}
+
+#intro h1 span{
+	font-size: 60px;
+	margin:0px 0px 0px 0px;
+	line-height:32px;
+	color: #28AECF;
+}
+
+#intro h6{
+	font-size: 36px;
+}
+
+#intro h6 span{
+	font-size: 36px;
+	font-family: "Open Sans","Helvetica", "Arial",sans-serif;
+}
+
+section {
+	padding: 50px 0px;
+}
+
+section h1,
+section h2,
+section h3,
+section h4,
+section h5,
+section h6{
+	color:white;
+	font-weight: normal;
+	font-family: "TFIfont","Alternate Gothic No.2",Impact,"Arial Narrow",Futura,sans-serif;
+
+}
+
+section p{
+	color: white;
+	font-family: "Open Sans","Helvetica", "Arial",sans-serif;
+}
+
+#about h2{
+	margin: 25px 0px;
+	color: #343434;
+	font-size: 48px;
+	text-align: center;
+}
+
+#about h2 span{
+	color: #28AECF;
+}
+
+#about p{
+	margin: 25px 0px;
+	color: #343434;
+	font-size: 16px;
+	text-align: center;
+	font-family: "Open Sans","Helvetica", "Arial",sans-serif;
+	line-height: 32px;
+}
+
+#about .container .row img {
+	margin-bottom: 15px;
+	width:100%;
+	border: 1px solid #dcdcdc;
+	padding: 5px;
+}
+
+#about .img {
+	margin: 50px 0px;
+}
+
+#principles {
+	background-color: #28AECF;
+	box-shadow: 0 0 15px 10px hsl(0, 0%, 50%);;
+}
+
+#principles h2{
+	margin: 25px 0px;
+	font-size: 48px;
+	text-align: center;
+}
+
+#principles .icons{
+	margin: 50px 0px;
+}
+
+#principles .icon {
+	overflow: hidden;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	padding: 0 auto;
+	border-radius: 50%;
+	text-align: center;
+	border: 8px solid #fff;
+}
+
+#principles h3{
+	margin-top: 30px;
+	font-size: 42px;
+}
+
+#principles p{
+	margin-bottom: 30px;
+}
+
+#tech h2{
+	margin: 25px 0px;
+	color: #343434;
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#tech h4 {
+	font-weight: bold;
+color: #343434;
+font-size: 20px;
+font-family: "Open Sans","Helvetica", "Arial",sans-serif;
+}
+
+#tech p {
+color:#343434;
+font-size: 14px;
+font-family: "Open Sans","Helvetica", "Arial",sans-serif;
+}
+
+#tech .container .row {
+margin-bottom: 0px;
+}
+
+#tech .row .panel {
+color:#343434;
+padding: 6px 12px;
+line-height: 1.428571429;
+vertical-align: middle;
+background-image: none;
+border: 1px solid transparent;
+border-color: #ccc;
+border-radius: 6px;
+display: block;
+width: 100%;
+}
+
+#tech .panel {
+margin-bottom: 35px;
+}
+
+#projects {
+	background-color: #28AECF;
+	box-shadow: 0 0 15px 10px hsl(0, 0%, 50%);
+}
+
+#projects h2{
+	margin: 25px 0px;
+	font-size: 48px;
+	text-align: center;
+}
+
+#projects img {
+	width: 100%;
+height: auto;
+max-width: 100%;
+vertical-align: middle;
+border: 0;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+}
+
+#projects .project {
+background: none repeat scroll 0 0 rgba(255, 255, 255, 1);
+border-bottom-left-radius: 6px;
+border-bottom-right-radius: 6px;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+min-height: 300px;
+margin-bottom: 30px;
+}
+
+#projects .project p{
+color: #343434;
+width: 100%;
+height: auto;
+padding: 0px 10px 10px 10px;
+font-size: 1em;
+line-height: 24px;
+}
+
+#projects .project h4{
+color: #343434;
+width: 100%;
+height: auto;
+padding: 0px 10px;
+font-size: 32px;
+margin-top: 10px;
+margin-bottom: 0px;
+}
+
+#culture {
+	padding-bottom: 0px;
+}
+
+#culture h2{
+	margin: 25px 0px;
+	color: #343434;
+	font-size: 48px;
+	text-align: center;
+}
+
+#culture h2 span{
+	color: #28AECF;
+}
+
+#culture #tiles li img{
+	width: 100%;
+}
+
+#culture #main{
+	display: block;
+	margin: 0 auto;
+}
+
+#culture h3{
+	font-size: 32px;
+}
+
+#culture .point {
+	width:22%;
+	height:auto;
+	display: block;
+	background-color: #28AECF;
+	padding: 0 10px 10px 10px;
+	margin-bottom: 25px;
+}
+
+#culture img{
+	width: 22%;
+	margin-bottom: 25px;
+}
+
+#culture #overlap{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	margin-top: -100px;
+	background-color: #fff;
+	z-index: 100;
+	display: block;
+	border-top: 5px solid #000;
+}
+
+#culture #start{
+	border-bottom: 5px solid #000;
+}
+
+#positions{
+	min-height: 600px;
+	font-family: "Open Sans","Helvetica", "Arial",sans-serif;
+	padding-top: 0px;
+}
+
+#positions h2{
+	margin: 25px 0px;
+	color: #343434;
+	font-size: 48px;
+	text-align: center;
+}
+
+#positions h2 span{
+	color: #28AECF;
+}
+
+.nav-tabs.nav-justified {
+	margin-top: 25px;
+}
+
+#positions h4 a{
+	width: auto;
+	font-family: "Open Sans","Helvetica", "Arial",sans-serif;
+	font-size: 24px;
+	color: #343434;
+}
+
+.panel {
+margin-bottom: 20px;
+background-color: #ffffff;
+border-bottom: 1px solid #ddd;
+border-top: 0px solid transparent;
+border-right: 0px solid transparent;
+border-left: 0px solid transparent;
+}
+
+.panel-default > .panel-heading {
+	width:auto;
+	margin-top: 5px;
+background-color: #fff;
+border-color: #dddddd;
+}
+
+.panel-title span {
+	width: auto;
+	font-family: "Open Sans","Helvetica", "Arial",sans-serif;
+	font-size: 16px;
+	color: #343434;
+	line-height: 32px;
+}
+
+nav{
+	height: 78px;
+	background-color: #111;
+}
