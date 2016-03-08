@@ -1,3 +1,4 @@
+
 <html>
   <head>
     <title>Tech Careers @ TFI</title>
@@ -155,15 +156,15 @@
         </div>
       </div>
     </section>
-    <section id="culture">
+    <section id="culture" class="hidden-xs">
       <h2>OUR <span>CULTURE</span></h2>
       <div id="start" class="hidden-xs"></div>
       <div id="main" class="container"><img src="images/culture/1.jpg" alt="" class="item"/><img src="images/culture/2.jpg" alt="" class="item"/><img src="images/culture/3.jpg" alt="" class="item"/><img src="images/culture/4.jpg" alt="" class="item"/>
-        <div class="point item">
+        <div class="col-xs-3 point item">
           <h3>#ONE</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div><img src="images/culture/5.jpg" alt="" class="item"/><img src="images/culture/6.jpg" alt="" class="item"/>
-        <div class="point item">
+        <div class="col-xs-3 point item">
           <h3>#TWO</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div><img src="images/culture/7.jpg" alt="" class="item"/><img src="images/culture/8.jpg" alt="" class="item"/><img src="images/culture/9.jpg" alt="" class="item"/><img src="images/culture/10.jpg" alt="" class="item"/>
@@ -248,15 +249,42 @@
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript">
       (function ($){
-      $('#main').imagesLoaded(function() {
 
+      $(window).load( function() {
+        var w = $(window).width();
+
+        if (w < 992){
+          $("#culture .point").css("width","21%");
+          $("#culture img").css("width","21%");
+        }
+        else{
+          $("#culture .point").css("width","22%");
+          $("#culture img").css("width","22%");
+        }
+
+      });
+
+      $(window).resize( function() {
+        var w = $(window).width();
+
+        if (w < 992){
+          $("#culture .point").css("width","21%");
+          $("#culture img").css("width","21%");
+        }
+        else{
+          $("#culture .point").css("width","22%");
+          $("#culture img").css("width","22%");
+        }
+
+      });
+
+      $('#main').imagesLoaded(function() {
       var container = document.querySelector('#main');
       var msnry = new Masonry( container, {
       // options
-      columnWidth: 200,
+      columnWidth: '.item',
       gutter: 25,
-      itemSelector: '.item',
-      isFitWidth: true
+      itemSelector: '.item'
       });
       });
       })(jQuery);
